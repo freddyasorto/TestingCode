@@ -5,7 +5,7 @@
     "compositeTemplates": [{
         "serverTemplates": [{
             "sequence": "1",
-            "templateId": "3de22fce-563a-4171-8e58-c912b3c726a0"
+            "templateId": "779abcd5-f4c1-489f-9016-577be2f1ef70"
         }],
         "inlineTemplates": [{
             "sequence": "1",
@@ -27,7 +27,7 @@
     }, {
         "serverTemplates": [{
             "sequence": "2",
-            "templateId": "d234decb-0296-428d-9f3c-6fe29a9c7f05"
+            "templateId": "8a38b4dd-0c8c-4f12-98bd-797a9ee4ce2e"
         }],
         "inlineTemplates": [{
             "sequence": "2",
