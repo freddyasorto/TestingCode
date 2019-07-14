@@ -1,0 +1,50 @@
+{
+    "emailSubject": "DocuSign API Composite Testing",
+    "emailBlurb": "Composite Testing",
+    "status": "sent",
+    "compositeTemplates": [{
+        "serverTemplates": [{
+            "sequence": "1",
+            "templateId": "3de22fce-563a-4171-8e58-c912b3c726a0"
+        }],
+        "inlineTemplates": [{
+            "sequence": "1",
+            "recipients": {
+                "signers": [{
+                    "email": "johndoe@test.test",
+                    "name": "John Doe",
+                    "recipientid":"1",
+                    "roleName": "Signer 1"
+                },
+                {
+        "email": "janedoe@test.test",
+        "name": "Jane Doe",
+        "rolename": "Signer 2",
+        "recipientid":"2"
+      }]
+            }
+        }]
+    }, {
+        "serverTemplates": [{
+            "sequence": "2",
+            "templateId": "d234decb-0296-428d-9f3c-6fe29a9c7f05"
+        }],
+        "inlineTemplates": [{
+            "sequence": "2",
+            "recipients": {
+                "signers": [{
+                    "email": "johndoe@test.test",
+                    "name": "John Doe",
+                    "roleName": "Signer 1",
+                    "recipientid":"1"
+                },
+                {
+        "email": "janedoe@test.test",
+        "name": "Jane Doe",
+        "rolename":"Signer 2",
+        "recipientid": "2"
+      }]
+            }
+        }]
+    }]
+}
